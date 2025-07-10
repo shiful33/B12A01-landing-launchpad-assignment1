@@ -285,7 +285,7 @@ body {
   max-width: 1140px;
   height: 632px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto 10px auto;
 }
@@ -301,10 +301,46 @@ body {
   font-weight: bold;
   color: #252432;
   width: 528px;
-  position: center left;
+  line-height: 120px;
 }
 
 .contact-right-form {
   width: 38%;
+}
+
+.contact-form {
+  
+}
+
+.contact-form label {
   display: block;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 497px;
+  height: 70px;
+  padding: 20px 32px;
+  border: 1px solid #d8dfef;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 19px;
+}
+
+.contact-form textarea {
+  height: 135px;
+}
+
+::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #808080;
+}
+
+.contact-form .btn {
+  width: 497px;
 }
