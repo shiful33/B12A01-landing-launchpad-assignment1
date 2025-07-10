@@ -45,7 +45,7 @@ body {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
-  padding: 15px 35px;
+  padding: 12px 36px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -58,7 +58,7 @@ body {
   color: #FFFFFF;
   font-size: 17px;
   font-weight: bold;
-  padding: 16px 36px;
+  padding: 13px 37px;
   border: none;
   border-radius: 10px;
 }
@@ -80,7 +80,7 @@ body {
 .logo {
   font-family: "Inter", sans-serif;
   font-size: 34px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #252432;
 }
 
@@ -128,7 +128,7 @@ body {
   max-width: 517px;
   font-size: 24px;
   font-weight: normal;
-  color: #252432;
+  color: #72737f;
   margin-bottom: 23px;
 }
 
@@ -174,7 +174,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: normal;
-  color: #000000;
+  color: #72737f;
 }
 
 /*  Main Styles > User Feedback Section Styles */
@@ -374,6 +374,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   color: #8987A1;
+  text-align: center;
 }
 
 .footer-menu ul {
