@@ -44,7 +44,7 @@ body {
   background-color: #4E47FF;
   color: #FFFFFF;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   padding: 12px 36px;
   border: none;
   border-radius: 10px;
@@ -248,7 +248,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: normal;
-  color: #757575;
+  color: #b3b3b3;
 }
 
 /*  Main Styles > Focus Section Styles */
