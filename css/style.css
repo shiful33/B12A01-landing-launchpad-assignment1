@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -12,10 +12,22 @@
   font-style: normal;
 }
 
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f8ff;
 }
 
 /* Shared Styles */
@@ -90,3 +102,180 @@
   margin-bottom: 152px;
 }
 
+/*  Main Styles > Action Section Styles */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 328px;
+  margin: 116px auto;
+}
+
+.action-left h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.action-left p {
+  font-family: "Raleway", sans-serif;
+  max-width: 517px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #252432;
+  margin-bottom: 23px;
+}
+
+.action-right img {
+  border-radius: 48px;
+}
+
+/*  Main Styles > User Section Styles */
+.user-section {
+  background-color: #e5e7ff;
+  border-radius: 24px;
+  max-width: 1140px;
+  height: 306px;
+  margin: 116px auto 137px auto;
+  text-align: center;
+}
+
+.user-left h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  padding-top: 50px;
+}
+
+.user-right {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.user-right h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.user-right p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+}
+
+/*  Main Styles > User Feedback Section Styles */
+.users-feedback-section {
+  max-width: 1140px;
+  height: 342px;
+  margin: 0 auto 137px auto;
+  text-align: center;
+}
+
+.users-feedback-section h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.user-feedback-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.users-feedback {
+  background-color: #fafcff;
+  border: 1px solid #f2eded;
+  border-radius: 14px;
+  margin-right: 20px;
+  padding: 24px;
+  text-align: left;
+}
+
+.stars {
+  margin-bottom: 24px;
+}
+
+.users-title h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #252432;
+}
+
+.users-title p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #252432;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.users {
+  display: flex;
+}
+
+.users-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.users-details p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.users-details small {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #757575;
+}
+
+/*  Main Styles > Focus Section Styles */
+.focus-section {
+  max-width: 1140px;
+  height: 697px;
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  margin: 0 auto 137px auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 71px 150px;
+}
+
+.focus-section h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.focus-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #757575;
+  margin: 20px 0;
+}
+
+.focus-section img {
+  margin-top: 20px;
+  border-radius: 48px;
+}
