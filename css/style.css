@@ -253,7 +253,7 @@ body {
   height: 697px;
   background-color: #FFFFFF;
   border-radius: 14px;
-  margin: 0 auto 137px auto;
+  margin: 0 auto 92px auto;
   display: grid;
   justify-content: center;
   text-align: center;
@@ -278,4 +278,33 @@ body {
 .focus-section img {
   margin-top: 20px;
   border-radius: 48px;
+}
+
+/*  Main Styles > Contact Section Styles */
+.contact-section {
+  max-width: 1140px;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px auto;
+}
+
+.contact-left {
+  width: 38%;
+  
+}
+
+.contact-left h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: bold;
+  color: #252432;
+  width: 528px;
+  position: center left;
+}
+
+.contact-right-form {
+  width: 38%;
+  display: block;
 }
